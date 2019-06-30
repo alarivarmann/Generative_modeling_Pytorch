@@ -1,0 +1,28 @@
+name: scvienv
+channels:
+    - conda-forge
+    - pytorch
+    - anaconda
+    - auto
+dependencies:
+- python==3.6.3
+- keras
+- tensorflow
+- numpy
+- pandas
+- matplotlib
+- umap-learn
+- jupyter_client 
+- jupyter_core 
+- notebook 
+- torchvision-gpu
+- pytorch-gpu 
+- tensorboard 
+- jupyterlab
+- jupyter_contrib_nbextensions
+- jupyter_nbextensions_configurator
+- pip
+- pip:
+  - scvi == 0.2.4
+  - nvidia-ml-py3
+# - umap-learn
